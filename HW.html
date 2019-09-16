@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 12 | Assignment - Web Visualization Dashboard (Latitude)</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Landing Page -->
+    <h1>Summary: Latitude vs. X</h1>
+    <hr>
+
+    <!-- Landing Page Image to start project explaination-->
+    <a target="_blank" href="assets/images/cloudymap.png">
+        <img src="assets/images/cloudymap.png" alt="Cloudy Map">
+    </a>
+
+    <!-- Landing Page paragraph 1-->
+    <p>
+        The purpose of this project was to analyze how weather chnages as you
+        get closer to the equator. To accomplish this analysis we first pulled
+        data from the OpenWeatherMao API to assemble a dataset over 500 cities.
+    </p>
+
+    <!-- Landing Page paragraph 2-->
+    <P>
+        After assembling the dataset, we used Matplotlib to plot various aspects
+        of the weather vs. latitude. Factors we looked at included: temperature,
+        cloudiness, wind speed, and humidity. This sire provides the source data
+        and visulizations created as part of the analysis, as well as explanations
+        and descriptions of any trends and correlation witnessed.
+    </P>
+  </div>
+    <!-- Landing Page paragraph 4 visualizations-->
+    <div class="container">
+
+    <h3>Visualizations</h3>
+
+      <div class="row">
+          <div class="col">
+            <a target="_blank" href="assets/images/cloudymap.png">
+              <img src="assets/images/cloudymap.png" alt="Cloudy Map">
+            </a>
+          </div>
+          <div class="col">
+            <a target="_blank" href="assets/images/humiditymap.png">
+              <img src="assets/images/humiditymap.png" alt="Humidity Map">
+            </a>
+          </div>
+          <div class="col">
+            <a href="assets/images/temperaturemap.png">
+              <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+            </a>
+          </div>
+          <div class="col">
+            <a href="assets/images/windmap.png">
+              <img target="_blank" src="assets/images/windmap.png" alt="Wind Map">
+            </a>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Visualization Page-->
+    .<div class="container">
+      <h1>Max Temperature</h1>
+      <hr>
+      <section>
+          <article>
+            <a href="assets/images/temperaturemap.png">
+              <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+            </a>
+          </article>
+          <article>
+            <p>
+              As expected, the weather becomes significantly warmer near the equator.
+            </p>
+          </article>
+      </section>
+    </div>
+
+
+    <!-- Comaprison Page -->
+    <div class="container"> 
+
+    <h1>Comparison: Latitude vs X</h1>
+    <hr>
+    <h6>Click any plot to get an in-depth analysis.</h6>
+
+      <div class="row mb-4">
+        <div class="col">
+          <h3>vs Max Temperature</h3>
+              <a href="assets/images/temperaturemap.png">
+              <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+              </a> 
+        </div>
+        <div class="col">
+          <h3>vs Humidity</h3>
+                <a target="_blank" href="assets/images/humiditymap.png">
+                  <img src="assets/images/humiditymap.png" alt="Humidity Map">
+                </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+          <div class="col">
+            <h3>vs Cloudiness</h3>
+                  <a target="_blank" href="assets/images/cloudymap.png">
+                    <img src="assets/images/cloudymap.png" alt="Cloudy Map">
+                  </a>
+          </div>
+          <div class="col">
+            <h3>vs Windspeed</h3>
+                  <a href="assets/images/windmap.png">
+                    <img target="_blank" src="assets/images/windmap.png" alt="Wind Map">
+                  </a>  
+          </div>
+      </div>
+    </div>
+
+    <!--Data Page-->
+    <div class="container">
+      <h1>Data</h1>
+      <hr>
+      <h6>The following table includes all the data used for plotting during this project</h6>
+
+
+    </div>
+</body>
+
+</html>

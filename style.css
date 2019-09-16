@@ -1,0 +1,40 @@
+h1 {
+    text-align: left;
+    background-color: white;
+    color: turquoise;
+    font-style: sans-serif;
+  }
+  
+  h2 {
+    color: deeppink;
+  }
+  
+  h3 {
+    color: orange;
+  }
+  
+  img {
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  section {
+    background-color: rgb(228, 229, 236);
+  }
+  
+  p {
+    font-size: 15px;
+    color: gray;
+    font-style: sans-serif;
+  }
+  
+  ul {
+    border-style: solid;
+    color: gray;
+  }
+
+  header {
+    border: solid px;
+    height: 400px; 
+  }
+  
