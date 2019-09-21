@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HW 9 | Assignment - Web Visualization Dashboard (Latitude)</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light bg-none">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="viz1.html">Visualization 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viz2.html">Visualization 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viz3.html">Visualization 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viz4.html">Visualization 4</a>
+                </li>
+              
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="viz1.html">Visualization 1</a>
+                    <a class="dropdown-item" href="viz2.html">Visualization 2</a>
+                    <a class="dropdown-item" href="viz3.html">Visualization 3</a>
+                    <a class="dropdown-item" href="viz4.html">Visualization 4</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comp.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+
+    <!-- Comaprison Page -->
+    <div class="container"> 
+
+    <h1>Comparison: Latitude vs X</h1>
+    <hr>
+    <h6>Click any plot to get an in-depth analysis.</h6>
+
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h3>vs Max Temperature</h3>
+              <a href="assets/images/temperaturemap.png">
+              <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+              </a> 
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h3>vs Humidity</h3>
+                <a target="_blank" href="assets/images/humiditymap.png">
+                  <img src="assets/images/humiditymap.png" alt="Humidity Map">
+                </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h3>vs Cloudiness</h3>
+                  <a target="_blank" href="assets/images/cloudymap.png">
+                    <img src="assets/images/cloudymap.png" alt="Cloudy Map">
+                  </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h3>vs Windspeed</h3>
+                  <a href="assets/images/windmap.png">
+                    <img target="_blank" src="assets/images/windmap.png" alt="Wind Map">
+                  </a>  
+          </div>
+      </div>
+    </div>
+</body>
+
+</html>
